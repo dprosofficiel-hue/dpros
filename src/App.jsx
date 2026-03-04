@@ -409,7 +409,7 @@ function MobileDrawer({ open, onClose, onNavigate, currentPage }) {
           >{label}</a>
         ))}
         <a
-          href="tel:0562940733"
+          href="https://wa.me/213562940733"
           style={{
             marginTop: '1.5rem',
             background: 'var(--blue-600)', color: '#fff',
@@ -529,7 +529,7 @@ export default function App() {
 
           {/* Desktop CTA */}
           <a
-            href="tel:0562940733"
+            href="https://wa.me/213562940733"
             className="nav-cta"
             style={{
               background: 'var(--blue-600)', color: '#fff',
@@ -850,7 +850,7 @@ export default function App() {
           </p>
           <div className="cta-row">
             <a
-              href="tel:0562940733"
+              href="https://wa.me/213562940733"
               style={{
                 background: 'var(--blue-600)', color: '#fff',
                 borderRadius: 10, padding: '0.85rem 1.75rem',
