@@ -1069,7 +1069,7 @@ export default function App() {
             <a href="https://sitedz.store" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--blue-500)', textDecoration: 'none', fontWeight: 500 }}
               onMouseEnter={e => e.currentTarget.style.textDecoration = 'underline'}
               onMouseLeave={e => e.currentTarget.style.textDecoration = 'none'}
-            >SiteDZ</a>
+            >Site<span style={{ color: '#22c55e' }}>DZ</span></a>
           </div>
         </div>
       </footer>
