@@ -17,6 +17,16 @@
   [headers.values]
     Content-Type = "text/css"
 
+[[headers]]
+  for = "/*.ico"
+  [headers.values]
+    Content-Type = "image/x-icon"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Content-Type = "image/png"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
